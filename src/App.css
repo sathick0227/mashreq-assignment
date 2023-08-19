@@ -1,0 +1,54 @@
+/* Login Page */
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #003b73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .login-card {
+  width: 70%;
+}
+.container .login-card .text-card {
+  color: white;
+  text-align: center;
+  padding: 60px;
+  min-height: 370px !important;
+  max-height: 370px !important;
+  background-color: #3689ef;
+}
+.container .login-card .login-form {
+  background-color: white;
+  min-height: 370px !important;
+  max-height: 370px !important;
+}
+
+.container .text-card .list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  line-height: 1;
+}
+.container .log-prefix-icon {
+  font-size: 14px;
+  padding: 0px 10px 0px 10px;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 2rem !important;
+  padding: 0px 10px 0px !important;
+}
+
+.MuiInputBase-input {
+  padding: 10px 10px !important;
+}
+
+.login-form .form {
+  padding: 15%;
+}

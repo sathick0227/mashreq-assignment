@@ -1,0 +1,51 @@
+/* Add this CSS to your stylesheet */
+
+/* Default button styles */
+.default-btn {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Primary button styles */
+.default-btn {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.default-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Secondary button styles */
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+/* ... Add styles for other button variants if needed */
+
+/* Disabled button styles */
+.btn-disabled:disabled {
+  opacity: 0.65;
+  pointer-events: none;
+}
