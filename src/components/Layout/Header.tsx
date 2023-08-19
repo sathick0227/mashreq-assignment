@@ -36,8 +36,9 @@ const Header: React.FC = () => {
   const [confirm, setConfirm] = useState<boolean>(false);
 
   const handleLogout = () => {
-    navigate("/");
     sessionStorage.clear();
+    navigate("/");
+    
   };
 
   return (
@@ -78,7 +79,7 @@ const Header: React.FC = () => {
             </Typography>
           </Grid>
           <Grid xs={1} item sx={{ marginTop: "5px" }}>
-            <a href="" onClick={() => setConfirm(true)}>
+            <a onClick={() => setConfirm(true)}>
               <LogoutIcon sx={{ color: "white" }} />
             </a>
           </Grid>
